@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.welcome-container {
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 500px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #272424;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #121111;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background-color: #2f7dd1;
+    color: rgb(236, 230, 230);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1f2327;
+}
+/* Center the content inside the div */
+.register-forget {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .start-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: rgb(247, 236, 236);
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .start-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Optional: Adding opacity effect on hover */
+  .register-forget.opacity:hover {
+    opacity: 0.8;
+  }
+  /* src/components/home.css */
+
+img {
+    max-width: 100%;        /* Ensures the image scales down for different screen sizes */
+    height: auto;           /* Maintains the aspect ratio of the image */
+    border-radius: px;     /* Optional: Adds rounded corners to the image */
+    display: block;         /* Removes bottom space/margin that inline images may have */
+    margin: 20px 0;         /* Optional: Adds some space around the image */
+    box-shadow: 0 4px 8px rgba(243, 236, 236, 0.1);  /* Optional: Adds a subtle shadow around the image */
+    padding-top: 20px;
+  }
+  
+  /* Optional: Specific styles for images within the .register-forget container */
+  .register-forget img {
+    width: 100%;           /* Ensures the image takes up the full width of the parent container */
+    max-width: 600px;      /* Limits the maximum width of the image */
+    margin: 0 auto;        /* Centers the image horizontally */
+    display: block;        /* Ensures the image is a block-level element */
+  }
+  h3 {
+    font-size: 2.5rem;
+    color: #41bd22;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  

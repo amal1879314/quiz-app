@@ -1,0 +1,127 @@
+/* General container styling */
+.container {
+    width: 90%; /* Set a smaller width to make the quiz smaller */
+    max-width: 500px; /* Limit the maximum width */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+    background-color: #efe8e8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styling */
+  h1 {
+    font-size: 1.8rem; /* Smaller title font */
+    text-align: center;
+    color: #eee3e3;
+  }
+  
+  /* Question styling */
+  h2 {
+    font-size: 1.4rem; /* Smaller question font */
+    color: #444;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Options list styling */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  li {
+    font-size: 1rem; /* Smaller font for options */
+    padding: 10px;
+    margin: 8px 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  li.correct {
+    background-color: #4CAF50; /* Green for correct */
+    color: #c34747;
+  }
+  
+  li.wrong {
+    background-color: #bbb0af; /* Red for wrong */
+    color: #fff;
+  }
+  
+  /* Next button styling */
+  button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #e7ece7;
+    color: rgb(234, 227, 227);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #53c258;
+  }
+  
+  button:disabled {
+    background-color: #96ab9a;
+    cursor: not-allowed;
+  }
+  
+  /* Footer index styling */
+  .index {
+    font-size: 0.9rem; /* Smaller footer text */
+    color: #825555;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  /* Styling for quiz completion message */
+  hr {
+    margin: 20px 0;
+  }
+  
+  h2 {
+    font-size: 1.4rem;
+  }
+  
+  button {
+    width: auto;
+    margin: 10px 0;
+  }
+
+  .logout-button {
+    position: flex; /* Fix it to the top-right corner */
+    top: 20px; /* Space from the top of the page */
+    right: 20px; /* Space from the right of the page */
+    width: 120px; /* Fixed width for the button */
+    padding: 10px 0; /* Vertical padding remains the same, no horizontal padding */
+    font-size: 16px;
+    background-color: #2d2930; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center; /* Center the text inside the button */
+    transition: background-color 0.3s ease;
+    margin-left: 600px;
+    
+  }
+  
+
+.logout-button:hover {
+  background-color: #f44336; /* Darker red on hover */
+}
+    
+  
+  
